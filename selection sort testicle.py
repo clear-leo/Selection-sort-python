@@ -10,6 +10,7 @@ for i in range(amount_list):
 size = len(arr)    
 
 for ind in range(size):
+    #I use the v in vind to display a change in the index, kind of like Delta-V in physics
     vind = ind
     for i in range(vind + 1, size):
         if arr[ind] > arr[i]:
